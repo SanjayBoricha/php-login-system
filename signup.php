@@ -2,7 +2,7 @@
 
 
 <main>
-	<div class="form-submit">
+	<div class="form-signup">
 		<section>
 			<h1>Signup</h1>
 			<?php
@@ -12,6 +12,9 @@
 					}
 					elseif ($_GET['error'] == "invalidmail") {
 						echo '<p class="error">Wrong Email Address !</p>';
+					}
+					elseif ($_GET['error'] == "usertaken") {
+						echo '<p class="error">Username already exist !</p>';
 					}
 					else {
 					}

@@ -103,11 +103,3 @@ h1 {
 	background: #c8e6c9;
 	transition: .3s;
 }
-.form-submit,.form-login {
-	transition: .3s;
-	display: block;
-}
-.form-submit h1,
-.form-submit button {
-	text-align: center;
-}

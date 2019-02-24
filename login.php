@@ -12,6 +12,9 @@
 			elseif ($_GET['error'] == "emptyfields") {
 				echo '<p class="error">Fill in all fields !</p>';
 			}
+			elseif ($_GET['error'] == "nouser") {
+				echo '<p class="error">No User found !</p>';
+			}
 		}
 	?>
 <form action="inc/login.inc.php" method="post">
